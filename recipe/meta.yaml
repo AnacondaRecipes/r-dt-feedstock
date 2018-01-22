@@ -10,8 +10,8 @@ package:
 source:
   fn: DT_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/DT_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/DT/DT_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/DT_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/DT/DT_{{ version }}.tar.gz
   sha256: a1b7f9e5c31a241fdf78ac582499f346e915ff948554980bbc2262c924b806bd
 
 
